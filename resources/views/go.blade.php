@@ -68,12 +68,7 @@
                 <svg class="go-icon icon-pause2 slip-control playpause"><use xlink:href="img/symbol-defs.svg#icon-pause2"></use></svg>
                 <svg class="go-icon icon-next2 slip-control next"><use xlink:href="img/symbol-defs.svg#icon-next2"></use></svg>
             </div>
-            <!--div class="action">
-    <a href="#" data-slide="3">go to slide 3</a>
-    <a href="#" data-slide="4">go to slide 4</a>
-    <a href="#" data-slide="5">go to slide 5</a>
-  </div>
-</div -->
+
 
         </div>
     </div>
@@ -141,10 +136,12 @@
                 <h5>Off Season</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->off_season !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -153,10 +150,12 @@
                 <h5>Holiday</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->holiday !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -165,10 +164,12 @@
                 <h5>Peak Rates</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->peak_rates !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -177,10 +178,12 @@
                 <h5>Extra Persons</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->extra_persons !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -189,10 +192,12 @@
                 <h5>Cleaning & Taxes</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->cleaning  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -207,10 +212,12 @@
                 <h5>Flooring</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->flooring  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -219,10 +226,12 @@
                 <h5>Sleeps</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->sleeps  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -231,10 +240,12 @@
                 <h5>Bedrooms</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->bedrooms  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -243,10 +254,12 @@
                 <h5>Bathrooms</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->bathrooms  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -255,10 +268,12 @@
                 <h5>Check-In</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->checkin !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -267,10 +282,11 @@
                 <h5>Check-Out</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->checkout  !!}
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -279,10 +295,12 @@
                 <h5>Rules:</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->rules  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -295,10 +313,12 @@
                 <h5>Appliances</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->appliances  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -307,10 +327,12 @@
                 <h5>Dishes</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->dishes !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -319,10 +341,12 @@
                 <h5>Linens</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->linens  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -331,10 +355,12 @@
                 <h5>Appliances</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->appliances !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -343,10 +369,12 @@
                 <h5>Heating & Cooling</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->heating_cooling  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -355,10 +383,12 @@
                 <h5>Pantry</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->pantry  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -372,10 +402,12 @@
                 <h5>General</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->general  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -384,10 +416,12 @@
                 <h5>Special</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->special  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -396,10 +430,12 @@
                 <h5>Kitchen</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->kitchen  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -408,10 +444,12 @@
                 <h5>Dining</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->dining  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -420,7 +458,8 @@
                 <h5>Bedrooms</h5>
             </div>
             <div class="columns large-10 medium-10 table-column align-self-middle">
-                ???
+                {!! $data[0]->bedrooms  !!}
+                <br /><br />
             </div>
 
         </div>
@@ -430,7 +469,8 @@
                 <h5>Bathrooms</h5>
             </div>
             <div class="columns large-10 medium-10 table-column align-self-middle">
-                ???
+                {!! $data[0]->bathrooms  !!}
+                <br /><br />
             </div>
 
         </div>
@@ -440,9 +480,12 @@
                 <h5>Entertainment</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ??? </div>
+                {!! $data[0]->entertainment  !!}
+                <br /><br />
+            </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -451,10 +494,12 @@
                 <h5>Outside</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->outside  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -463,10 +508,12 @@
                 <h5>Local</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->local  !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
@@ -475,10 +522,12 @@
                 <h5>Attractions</h5>
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
-                ???
+                {!! $data[0]->attractions !!}
+                <br /><br />
             </div>
             <div class="columns large-2 medium-2 table-column align-self-middle">
                 ???
+                <br /><br />
             </div>
         </div>
         <!-- end row -->
